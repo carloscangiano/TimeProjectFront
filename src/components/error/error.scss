@@ -1,0 +1,31 @@
+.error-container{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #222831;
+  padding: 4rem;
+  h1{
+    font-size: 160px;
+    font-weight: 1000;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+  }
+  p{
+    font-size: 40px;
+    font-weight: 1000;
+    display: flex;
+    width: auto;
+    padding-bottom: 2rem;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    opacity: 0.6;
+    border-bottom: 5px solid aliceblue;
+  }
+}
